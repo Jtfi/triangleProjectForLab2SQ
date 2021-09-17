@@ -28,7 +28,7 @@ double Triangle::hypotenuseCalc(double sideOne, double sideTwo)
 {
 	double hypotenuse = 0;
 
-	hypotenuse = (sideOne * sideOne) + (sideTwo * sideTwo);
+	hypotenuse = sqrt((sideOne * sideOne) + (sideTwo * sideTwo));
 
 	return hypotenuse;
 }
