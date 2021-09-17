@@ -8,6 +8,9 @@
 
 */
 
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
 
 
 class Triangle
@@ -31,6 +34,9 @@ private:
 	/* ====================================== */
 public:
 
+	Triangle();
+
+	double hypotenuseCalc(double sideOne, double sideTwo);
 
 
 };
