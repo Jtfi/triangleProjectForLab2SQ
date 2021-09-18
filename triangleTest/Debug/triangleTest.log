@@ -1,2 +1,5 @@
 ﻿  triangleTest.cpp
+C:\Users\Justin\source\repos\triangleProjectForLab2SQ\triangleTest\triangleTest.cpp(54,56): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Justin\source\repos\triangleProjectForLab2SQ\triangleTest\triangleTest.cpp(54,50): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+     Creating library C:\Users\Justin\Source\Repos\triangleProjectForLab2SQ\triangleTest\Debug\triangleTest.lib and object C:\Users\Justin\Source\Repos\triangleProjectForLab2SQ\triangleTest\Debug\triangleTest.exp
   triangleTest.vcxproj -> C:\Users\Justin\Source\Repos\triangleProjectForLab2SQ\triangleTest\Debug\triangleTest.dll

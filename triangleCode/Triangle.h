@@ -28,6 +28,10 @@ private:
 	double angleBC;	//Angle with sides B and C
 	double angleCA; //Angle with sides C and A
 
+	int origin;
+	int positionX;
+	int positionY;
+
 
 	/* ====================================== */
 	/*              PUBLIC                    */
@@ -41,6 +45,8 @@ public:
 	double areaCalc(double sideOne, double sideTwo);
 	double thirdAngleCalc(double angleOne, double angleTwo);
 	double perimeterCalc(double sideOne, double sideTwo, double sideThree);
+
+	int distanceFromOriginCalc(int x, int y);
 
 	//Mutators
 

@@ -42,10 +42,18 @@ namespace triangleTest
 		{
 			Triangle* obj = NULL;
 
-			double result = obj->perimeterCalc(60.0, 60.0, 60);
+			double perimeter = obj->perimeterCalc(60.0, 60.0, 60);
 
-			Assert::AreEqual(180.0, result);
+			Assert::AreEqual(180.0, perimeter);
 		}
 
+		TEST_METHOD(TestDistanceFromOriginCalc)
+		{
+			Triangle* obj = NULL;
+
+			double distance = obj->distanceFromOriginCalc(60.0, 60.0);
+
+			Assert::AreEqual(180.0, distance);
+		}
 	};
 }

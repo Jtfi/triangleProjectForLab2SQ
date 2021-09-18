@@ -20,6 +20,10 @@ Triangle::Triangle()
 	angleAB = 0;
 	angleBC = 0;
 	angleCA = 0;
+
+	origin = 0;
+	positionX = 0;
+	positionY = 0;
 }
 
 
@@ -61,6 +65,16 @@ double Triangle::perimeterCalc(double sideOne, double sideTwo, double sideThree)
 	perimeter = sideOne + sideTwo + sideThree;
 
 	return perimeter;
+}
+
+
+int Triangle::distanceFromOriginCalc(int x, int y)
+{
+	int distance = 0;
+
+
+
+	return distance;
 }
 
 
