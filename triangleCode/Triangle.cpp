@@ -34,7 +34,12 @@ double Triangle::hypotenuseCalc(double sideOne, double sideTwo)
 }
 
 
+double Triangle::areaCalc(double sideOe, double sideTwo)
+{
+	double area = 0.0;
 
+	return area;
+}
 
 
 

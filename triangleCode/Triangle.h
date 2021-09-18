@@ -33,11 +33,18 @@ private:
 	/*              PUBLIC                    */
 	/* ====================================== */
 public:
-
+	//Constructor
 	Triangle();
 
+	//Methods
 	double hypotenuseCalc(double sideOne, double sideTwo);
+	double areaCalc(double sideOe, double sideTwo);
 
+	//Mutators
+
+	//Accessors
+
+	//Destructor
 
 };
 
