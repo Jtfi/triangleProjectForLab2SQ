@@ -54,9 +54,11 @@ double Triangle::thirdAngleCalc(double angleOne, double angleTwo)
 	return thirdAngle;
 }
 
-double Triangle::perimeterCalc(double sideONe, double sideTwo, double sideThree)
+double Triangle::perimeterCalc(double sideOne, double sideTwo, double sideThree)
 {
 	double perimeter = 0.0;
+
+	perimeter = sideOne + sideTwo + sideThree;
 
 	return perimeter;
 }
