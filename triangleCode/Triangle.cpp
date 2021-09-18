@@ -45,5 +45,16 @@ double Triangle::areaCalc(double sideOne, double sideTwo)
 
 
 
+double Triangle::thirdAngleCalc(double angleOne, double angleTwo)
+{
+	double thirdAngle = 0.0;
+	
+
+
+	return thirdAngle;
+}
+
+
+
 
 

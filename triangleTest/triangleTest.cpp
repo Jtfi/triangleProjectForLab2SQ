@@ -29,5 +29,14 @@ namespace triangleTest
 			Assert::AreEqual(50.0, result);
 		}
 
+		TEST_METHOD(TestThirdAngleCalc)
+		{
+			Triangle* obj = NULL;
+
+			double result = obj->thirdAngleCalc(60.0, 60.0);
+
+			Assert::AreEqual(60.0, result);
+		}
+
 	};
 }
