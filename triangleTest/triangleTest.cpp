@@ -38,5 +38,14 @@ namespace triangleTest
 			Assert::AreEqual(60.0, result);
 		}
 
+		TEST_METHOD(TestPerimeterCalc)
+		{
+			Triangle* obj = NULL;
+
+			double result = obj->perimeterCalc(60.0, 60.0, 60);
+
+			Assert::AreEqual(180.0, result);
+		}
+
 	};
 }

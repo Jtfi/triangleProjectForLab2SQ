@@ -40,6 +40,7 @@ public:
 	double hypotenuseCalc(double sideOne, double sideTwo);
 	double areaCalc(double sideOne, double sideTwo);
 	double thirdAngleCalc(double angleOne, double angleTwo);
+	double perimeterCalc(double sideONe, double sideTwo, double sideThree);
 
 	//Mutators
 
