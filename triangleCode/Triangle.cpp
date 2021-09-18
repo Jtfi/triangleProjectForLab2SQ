@@ -49,7 +49,7 @@ double Triangle::thirdAngleCalc(double angleOne, double angleTwo)
 {
 	double thirdAngle = 0.0;
 	
-
+	thirdAngle = 180 - (angleOne + angleTwo);
 
 	return thirdAngle;
 }
