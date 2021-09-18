@@ -38,7 +38,7 @@ public:
 
 	//Methods
 	double hypotenuseCalc(double sideOne, double sideTwo);
-	double areaCalc(double sideOe, double sideTwo);
+	double areaCalc(double sideOne, double sideTwo);
 
 	//Mutators
 
