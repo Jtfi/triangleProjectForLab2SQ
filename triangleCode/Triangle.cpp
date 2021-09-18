@@ -72,7 +72,7 @@ int Triangle::distanceFromOriginCalc(int x, int y)
 {
 	int distance = 0;
 
-
+	distance = sqrt((x * x) + (y * y));
 
 	return distance;
 }

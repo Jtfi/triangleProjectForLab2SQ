@@ -1,5 +1,6 @@
 ﻿  triangleTest.cpp
-C:\Users\Justin\source\repos\triangleProjectForLab2SQ\triangleTest\triangleTest.cpp(54,56): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\Justin\source\repos\triangleProjectForLab2SQ\triangleTest\triangleTest.cpp(54,50): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-     Creating library C:\Users\Justin\Source\Repos\triangleProjectForLab2SQ\triangleTest\Debug\triangleTest.lib and object C:\Users\Justin\Source\Repos\triangleProjectForLab2SQ\triangleTest\Debug\triangleTest.exp
-  triangleTest.vcxproj -> C:\Users\Justin\Source\Repos\triangleProjectForLab2SQ\triangleTest\Debug\triangleTest.dll
+C:\Users\Justin\source\repos\triangleProjectForLab2SQ\triangleCode\Triangle.cpp(75,17): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Justin\source\repos\triangleProjectForLab2SQ\triangleTest\triangleTest.cpp(56,1): error C2665: 'Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual': none of the 8 overloads could convert all the argument types
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\UnitTest\include\CppUnitTestAssert.h(187,15): message : could be 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const wchar_t *,const wchar_t *,bool,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\UnitTest\include\CppUnitTestAssert.h(168,15): message : or       'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const char *,const char *,bool,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
+C:\Users\Justin\source\repos\triangleProjectForLab2SQ\triangleTest\triangleTest.cpp(56,1): message : while trying to match the argument list '(int, double)'
