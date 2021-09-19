@@ -51,9 +51,9 @@ namespace triangleTest
 		{
 			Triangle* obj = NULL;
 
-			double distance = obj->distanceFromOriginCalc(6, 8);
+			double distance = obj->distanceFromOriginCalc(6.0, 8.0);
 
-			Assert::AreEqual(50, distance);
+			Assert::AreEqual(10.0, distance);
 		}
 	};
 }

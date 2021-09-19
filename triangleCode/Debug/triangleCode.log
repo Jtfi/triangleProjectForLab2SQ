@@ -1,3 +1,4 @@
 ﻿  Triangle.cpp
-C:\Users\Justin\Source\Repos\triangleProjectForLab2SQ\triangleCode\Triangle.cpp(75,17): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  main.cpp
+  Generating Code...
   triangleCode.vcxproj -> C:\Users\Justin\Source\Repos\triangleProjectForLab2SQ\triangleTest\Debug\triangleCode.exe

@@ -68,9 +68,9 @@ double Triangle::perimeterCalc(double sideOne, double sideTwo, double sideThree)
 }
 
 
-int Triangle::distanceFromOriginCalc(int x, int y)
+double Triangle::distanceFromOriginCalc(double x, double y)
 {
-	int distance = 0;
+	double distance = 0;
 
 	distance = sqrt((x * x) + (y * y));
 

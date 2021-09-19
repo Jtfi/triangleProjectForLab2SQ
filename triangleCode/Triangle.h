@@ -46,7 +46,8 @@ public:
 	double thirdAngleCalc(double angleOne, double angleTwo);
 	double perimeterCalc(double sideOne, double sideTwo, double sideThree);
 
-	int distanceFromOriginCalc(int x, int y);
+	
+	double distanceFromOriginCalc(double x, double y);
 
 	//Mutators
 
