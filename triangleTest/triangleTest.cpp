@@ -55,5 +55,14 @@ namespace triangleTest
 
 			Assert::AreEqual(10.0, distance);
 		}
+
+		TEST_METHOD(TestEquilateralCalc)
+		{
+			Triangle* obj = NULL;
+
+			bool retCode = obj->equilateralCalc(10.0, 10.0, 10.0);
+
+			Assert::AreEqual(true, retCode);
+		}
 	};
 }

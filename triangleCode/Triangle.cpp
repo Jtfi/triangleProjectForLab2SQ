@@ -77,5 +77,19 @@ double Triangle::distanceFromOriginCalc(double x, double y)
 	return distance;
 }
 
+bool Triangle::equilateralCalc(double sideOne, double sideTwo, double sideThree)
+{
+	bool retCode = false;
 
+	if (sideOne == 1)
+	{
+		retCode = true;
+	}
+	else 
+	{
+		retCode = false;
+	}
+
+	return retCode;
+}
 
