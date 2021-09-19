@@ -81,7 +81,7 @@ bool Triangle::equilateralCalc(double sideOne, double sideTwo, double sideThree)
 {
 	bool retCode = false;
 
-	if (sideOne == 1)
+	if (sideOne == sideTwo == sideThree)
 	{
 		retCode = true;
 	}
